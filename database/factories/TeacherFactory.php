@@ -25,7 +25,8 @@ class TeacherFactory extends Factory
         return [
             'name' => $this->faker->name(),
             'position' => $this->faker->jobTitle,
-            'text' => $this->faker->sentence($nbWords = 18, $variableNbWords = true),
+            'text' => $this->faker->text(150),
+            'image' => 'person_' . rand(1, 3) . '.jpg'
         ];
     }
 }

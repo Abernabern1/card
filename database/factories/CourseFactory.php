@@ -25,7 +25,7 @@ class CourseFactory extends Factory
     {
         return [
             'title' => $this->faker->sentence($nbWords = 3, $variableNbWords = true),
-            'text' => $this->faker->sentence($nbWords = 7, $variableNbWords = true),
+            'text' => $this->faker->text(35),
             'price' => $this->faker->numberBetween(10, 100),
             'image' => 'img_' . rand(1, 6) . '.jpg',
             'student_count' => $this->faker->numberBetween(500, 3000),

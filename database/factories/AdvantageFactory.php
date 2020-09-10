@@ -23,7 +23,7 @@ class AdvantageFactory extends Factory
     public function definition()
     {
         return [
-            'title' => $this->faker->sentence($nbWords = 4, $variableNbWords = true),
+            'title' => $this->faker->text(30),
             'icon' => $this->faker->randomElement(['icon-university', 'icon-graduation-cap'])
         ];
     }

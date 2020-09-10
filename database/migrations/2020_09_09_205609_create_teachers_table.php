@@ -18,6 +18,7 @@ class CreateTeachersTable extends Migration
             $table->string('name');
             $table->string('position');
             $table->string('text');
+            $table->string('image');
             $table->timestamps();
         });
     }
