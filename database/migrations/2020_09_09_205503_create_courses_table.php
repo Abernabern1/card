@@ -21,7 +21,7 @@ class CreateCoursesTable extends Migration
             $table->string('image');
             $table->string('student_count');
             $table->string('lesson_count');
-            $table->string('week_coount');
+            $table->string('week_count');
             $table->timestamps();
         });
     }
