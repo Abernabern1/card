@@ -2,6 +2,8 @@
 
 namespace Database\Seeders;
 
+use App\Models\Advantage;
+use App\Models\Message;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -13,6 +15,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // User::factory(10)->create();
+        $this->call(UserSeeder::class);
+        $this->call(CourseSeeder::class);
+        $this->call(AdvantageSeeder::class);
+        $this->call(MessageSeeder::class);
+        $this->call(SubscriberSeeder::class);
+        $this->call(TeacherSeeder::class);
     }
 }
