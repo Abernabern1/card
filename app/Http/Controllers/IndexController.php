@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\User;
+use App\Models\Client;
 use App\Models\Advantage;
 use App\Models\Course;
 use App\Models\Message;
@@ -23,9 +23,9 @@ class IndexController extends Controller
         return view('index', compact('advantages', 'courses', 'teachers', 'mainAdvantages'));
     }
 
-    public function register(Request $request, User $user)
+    public function register(Request $request, Client $client)
     {
-        $user->fill($request->all())->save();
+        $client->fill($request->all())->save();
 
         return redirect()->route('index');
     }
