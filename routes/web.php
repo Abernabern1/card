@@ -21,3 +21,5 @@ Route::get('/', [IndexController::class, 'index'])->name('index');
 Route::put('register', [IndexController::class, 'register'])->name('register');
 Route::put('message', [IndexController::class, 'message'])->name('message');
 Route::put('subscribe', [IndexController::class, 'subscribe'])->name('subscribe');
+
+Auth::routes(['register' => true]);
