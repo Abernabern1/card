@@ -69,6 +69,6 @@ class CourseController extends Controller
     {
         Course::destroy($id);
 
-        return redirect()->back();
+        return redirect()->back()->with('status-success', 'Course item is successfully deleted.');
     }
 }
