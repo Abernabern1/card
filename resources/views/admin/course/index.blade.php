@@ -8,7 +8,7 @@
     <div class="doc">
       <!-- START OVERVIEW -->
       <div class="doc-section">
-        <h1 id="overview" class="doc-heading">Overview</h1><br/>
+        <h1 id="overview" class="doc-heading">Courses</h1><br/>
 
         @if(session('status-success'))
           <div>
@@ -22,10 +22,10 @@
               <th scope="col">Название</th>
                 <th scope="col">Текст</th>
                 <th scope="col">Цена</th>
-                <th scope="col">Изображение</th>
                 <th scope="col">Студенты</th>
                 <th scope="col">Уроки</th>
                 <th scope="col">Недели</th>
+                <th scope="col">Изображение</th>
               <th scope="col">Действие</th>
             </tr>
           </thead>
@@ -36,10 +36,10 @@
               <td>{{ $course->title }}</td>
                 <td>{{ $course->text }}</td>
                 <td>{{ $course->price }}</td>
-                <td>{{ $course->image }}</td>
                 <td>{{ $course->student_count }}</td>
                 <td>{{ $course->lesson_count }}</td>
                 <td>{{ $course->week_count }}</td>
+                <td>{{ $course->image }}</td>
               <td class="sssss">
                 &nbsp&nbsp&nbsp
                 <a href="{{ route('admin.course.update', $course->id) }}">

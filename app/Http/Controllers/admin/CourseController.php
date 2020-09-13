@@ -39,7 +39,7 @@ class CourseController extends Controller
             'image' => $filePath
         ]);
 
-        return redirect()->back()->withInput()->with('status-success', 'Course item is successfully created.');
+        return redirect()->back()->with('status-success', 'Course item is successfully created.');
 
     }
 

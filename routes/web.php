@@ -47,19 +47,19 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => 'auth'], fu
 
     Route::group(['prefix' => 'teacher', 'as' => 'teacher.'], function () {
         Route::get('/', [TeacherController::class, 'index'])->name('index');
-        Route::get('create', [CourseController::class, 'create'])->name('create');
+        Route::get('create', [TeacherController::class, 'create'])->name('create');
         Route::put('create', [TeacherController::class, 'createStore'])->name('createStore');
-        Route::get('update/{id}', [CourseController::class, 'update'])->name('update');
-        Route::patch('update/{id}', [CourseController::class, 'updateStore'])->name('updateStore');
+        Route::get('update/{id}', [TeacherController::class, 'update'])->name('update');
+        Route::patch('update/{id}', [TeacherController::class, 'updateStore'])->name('updateStore');
         Route::delete('delete/{id}', [TeacherController::class, 'delete'])->name('delete');
     });
 
     Route::group(['prefix' => 'advantage', 'as' => 'advantage.'], function () {
         Route::get('/', [AdvantageController::class, 'index'])->name('index');
-        Route::get('create', [CourseController::class, 'create'])->name('create');
+        Route::get('create', [AdvantageController::class, 'create'])->name('create');
         Route::put('create', [AdvantageController::class, 'createStore'])->name('createStore');
-        Route::get('update/{id}', [CourseController::class, 'update'])->name('update');
-        Route::patch('update/{id}', [CourseController::class, 'updateStore'])->name('updateStore');
+        Route::get('update/{id}', [AdvantageController::class, 'update'])->name('update');
+        Route::patch('update/{id}', [AdvantageController::class, 'updateStore'])->name('updateStore');
         Route::delete('delete/{id}', [AdvantageController::class, 'delete'])->name('delete');
     });
 
