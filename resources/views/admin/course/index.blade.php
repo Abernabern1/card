@@ -19,14 +19,14 @@
           <thead>
             <tr>
               <th scope="col">#</th>
-              <th scope="col">Название</th>
-                <th scope="col">Текст</th>
-                <th scope="col">Цена</th>
-                <th scope="col">Студенты</th>
-                <th scope="col">Уроки</th>
-                <th scope="col">Недели</th>
-                <th scope="col">Изображение</th>
-              <th scope="col">Действие</th>
+              <th scope="col">Title</th>
+                <th scope="col">Text</th>
+                <th scope="col">Price</th>
+                <th scope="col">Students</th>
+                <th scope="col">Lessons</th>
+                <th scope="col">Weeks</th>
+                <th scope="col">Image</th>
+              <th scope="col">Action</th>
             </tr>
           </thead>
           <tbody>

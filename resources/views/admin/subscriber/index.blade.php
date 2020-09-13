@@ -19,8 +19,8 @@
           <thead>
             <tr>
               <th scope="col">#</th>
-              <th scope="col">Эмейл</th>
-              <th scope="col">Действие</th>
+              <th scope="col">Email</th>
+              <th scope="col">Action</th>
             </tr>
           </thead>
           <tbody>

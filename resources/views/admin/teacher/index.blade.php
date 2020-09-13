@@ -17,13 +17,13 @@
         @endif
         <table class="table table-hover table-dark table-bordered">
           <thead>
-            <tr>
+            <tr class="items">
               <th scope="col">#</th>
-              <th scope="col">Название</th>
-              <th scope="col">Должность</th>
-              <th scope="col">Текст</th>
-              <th scope="col">Изображение</th>
-              <th scope="col">Действие</th>
+              <th scope="col">Name</th>
+              <th scope="col">Position</th>
+              <th scope="col">Text</th>
+              <th scope="col">Image</th>
+              <th scope="col">Action</th>
             </tr>
           </thead>
           <tbody>

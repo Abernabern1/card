@@ -8,7 +8,7 @@
     <div class="doc">
       <!-- START OVERVIEW -->
       <div class="doc-section">
-        <h1 id="overview" class="doc-heading">Advantage</h1><br/>
+        <h1 id="overview" class="doc-heading">Advantages</h1><br/>
 
         @if(session('status-success'))
           <div>
@@ -19,9 +19,9 @@
           <thead>
             <tr>
               <th scope="col">#</th>
-              <th scope="col">Название</th>
-              <th scope="col">Иконка</th>
-              <th scope="col">Действие</th>
+              <th scope="col">Title</th>
+              <th scope="col">Icon</th>
+              <th scope="col">Action</th>
             </tr>
           </thead>
           <tbody>

@@ -7,7 +7,7 @@
         <div class="doc">
             <!-- START OVERVIEW -->
             <div class="doc-section">
-                <h1 id="overview" class="doc-heading">Menu</h1><br/>
+                <h1 id="overview" class="doc-heading">Teachers</h1><br/>
 
                 @if($errors->all())
                     <div class="errors">
@@ -66,7 +66,7 @@
                     </div><br/>
 
                     <div class="form-group">
-                        <button type="submit" class="btn btn-default" style="margin-left: 75px;">Подтвердить</button>
+                        <button type="submit" class="btn btn-default" style="margin-left: 75px;">Send</button>
                     </div><br/>
 
                     {{ method_field('PUT') }}

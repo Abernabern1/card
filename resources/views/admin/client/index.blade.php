@@ -19,10 +19,10 @@
           <thead>
             <tr>
               <th scope="col">#</th>
-              <th scope="col">Имя</th>
-              <th scope="col">Фамилия</th>
-              <th scope="col">Эмейл</th>
-              <th scope="col">Действие</th>
+              <th scope="col">First name</th>
+              <th scope="col">Last name</th>
+              <th scope="col">Email</th>
+              <th scope="col">Action</th>
             </tr>
           </thead>
           <tbody>
